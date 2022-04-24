@@ -1,15 +1,18 @@
 
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-right: 20px;
+    padding-right: 0;background-color: bisque;
 }
-.center {margin-right: auto;margin-left: auto;display: block; }
+.center {margin-right: auto;margin-left: auto;display: block;}
 header h1{
    text-align: center;font-weight: 400;font-style: inherit;
+}
+header{
+    background-color: aquamarine;
 } 
 .navbar {
    font-size: large;
-    background-color: bisque;
+    text-decoration: wavy;
     text-align: center;
 
 }
@@ -27,7 +30,7 @@ header h1{
     text-transform: uppercase;
 }
 footer {
-    position: fixed;
+    position: static;
     background-color: lavender;
     text-align: center;
     padding-left: 20px;
@@ -46,4 +49,22 @@ footer a{
     padding-left: 20px;
     padding-right: 20px;
 }
-    
+
+.ima{
+border: .3rem solid black;
+
+}
+/* three column grid system */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }

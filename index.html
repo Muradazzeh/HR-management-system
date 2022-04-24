@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,38 +10,96 @@
     <link rel="icon" type="image/jpg" href="./image/Faviconnew.png">
     <script src="https://kit.fontawesome.com/e6d3dc9ffc.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
-    <div class="top">
-    <img  title="hr image" src="./image/HR.jpg" height="150" width="150" class="center" >
-</div>
-    <h1>Home page </h1>
-</div>
-</div>
-</div>
-    <div class="navbar">
+        <div class="top">
+            <img title="hr image" src="./image/HR.jpg" height="150" width="150" class="center">
+        </div>
+        <h1>Home page </h1>
+        </div>
+        </div>
+        </div>
+        <div class="navbar">
 
-        <a href="./index.html"><i class="fa-solid fa-house-user"></i>Home page </i></a>
-        <a href="./accounting.html"><i class="fa-solid fa-file-invoice-dollar"></i>Accounting page</i> </a>
-        <a href="./README.md"><i class="fa-solid fa-circle-info"></i>Help </a>
-    </div>
-</header>
+            <a href="./index.html"><i class="fa-solid fa-house-user"></i>Home page </i></a>
+            <a href="./accounting.html"><i class="fa-solid fa-file-invoice-dollar"></i>Accounting page</i> </a>
+            <a href="./README.md"><i class="fa-solid fa-circle-info"></i>Help </a>
+        </div>
+    </header>
 
-<main>
-   <script src="./app.js"></script>
+    <main>
+        <section id="data" style="background-color: rgb(228, 182, 182);">
 
-</main>
-<br>
-<br>
 
-<footer>
+            <fieldset>
+                <form>
+                    <label for="fullName">Full Name:</label><br>
+                    <input type="text" id="fullName" name="fullName"><br>
 
-    <p>&copy;Murad alazzeh 2022</p>
-     <i class="fa-brands fa-facebook"><a href="https://ar-ar.facebook.com/">facebook  </a></i>
-     <i class="fa-brands fa-instagram-square"><a href="https://www.instagram.com/">Instegram</a></i>
-    <i class="fa-brands fa-twitter"><a href="https://twitter.com/">Twitter</a> </i>
-    <i class="fa-brands fa-tiktok"><a href="https://www.tiktok.com/">Tiktok</a></i>
+                    <label for="department">Department:</label><br>
+                    <select id="department" name="department" form="departmentform">
+                        <option value="Administration">Administration </option>
+                        <option value="Marketing">Marketing </option>
+                        <option value="Development ">Development </option>
+                        <option value="Finance">Finance </option>
+                    </select><br>
 
-</footer>
+                    <label for="level">Level:</label><br>
+                    <select id="lev" name="levellist" form="levelform">
+                        <option value="Junior"> Junior </option>
+                        <option value="Mid-Senior"> Mid-Senior </option>
+                        <option value="Senior"> Senior </option>
+
+                    </select>
+                    <br>
+                    <label for="imag">Employee Image URL:</label><br>
+                    <input type="text" id="imag" name="Employeeimage">
+                    <br>
+                    <br>
+
+                    <input type="submit" id="sub" name="Submit"><br>
+                </form>
+                <p>Click on the button to generate an ID number for the employee</p>
+                <button onclick="generate()">Generat ID</button>
+                <br>
+                <label id="uniqueID" value="generate()"></label><br>
+                <p></p>
+
+            </fieldset>
+        </section>
+
+       
+        <section id="card">
+            <div id="empList" class="grid-container">
+            </div>
+        </section>
+        
+
+
+
+
+
+
+
+
+
+
+        <script src="./app.js"></script>
+
+    </main>
+    <br>
+    <br>
+
+    <footer>
+
+        <p>&copy;Murad alazzeh 2022</p>
+        <i class="fa-brands fa-facebook"><a href="https://ar-ar.facebook.com/">facebook </a></i>
+        <i class="fa-brands fa-instagram-square"><a href="https://www.instagram.com/">Instegram</a></i>
+        <i class="fa-brands fa-twitter"><a href="https://twitter.com/">Twitter</a> </i>
+        <i class="fa-brands fa-tiktok"><a href="https://www.tiktok.com/">Tiktok</a></i>
+
+    </footer>
 </body>
+
 </html>
