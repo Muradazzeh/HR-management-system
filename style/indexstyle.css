@@ -68,3 +68,7 @@ border: .3rem solid black;
     font-size: 30px;
     text-align: center;
   }
+  table, th, td {
+      padding-top: 20px;
+    border:1px solid black;
+  }
