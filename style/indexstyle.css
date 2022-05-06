@@ -1,34 +1,50 @@
-
-body{
+body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-right: 0;background-color: bisque;
+    padding-right: 0;
+    background-color: bisque;
 }
-.center {margin-right: auto;margin-left: auto;display: block;}
-header h1{
-   text-align: center;font-weight: 400;font-style: inherit;
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
-header{
+
+header h1 {
+    text-align: center;
+    font-weight: 400;
+    font-style: inherit;
+}
+
+header {
     background-color: aquamarine;
-} 
+}
+
 .navbar {
-   font-size: large;
+    font-size: large;
     text-decoration: wavy;
     text-align: center;
 
 }
-.top h1{ color: brown;font-size: larger;
-    
+
+.top h1 {
+    color: brown;
+    font-size: larger;
+
 }
+
 .navbar a {
     padding-left: 20px;
     padding-right: 20px;
-    
+
 }
-.navbar a:hover{
+
+.navbar a:hover {
     background-color: rgb(255, 230, 0);
     cursor: context-menu;
     text-transform: uppercase;
 }
+
 footer {
     position: static;
     background-color: lavender;
@@ -38,37 +54,50 @@ footer {
     padding-bottom: 20px;
     bottom: 0;
     width: 100%;
-   
-  
+
+
 }
-main{
+
+main {
     text-align: justify;
     font-size: medium;
 }
-footer a{
+
+footer a {
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.ima{
-border: .3rem solid black;
+.ima {
+    border: .3rem solid black;
 
 }
+
 /* three column grid system */
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: #2196F3;
     padding: 10px;
-  }
-  .grid-item {
+}
+
+.grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
-  }
-  table, th, td {
-      padding-top: 20px;
-    border:1px solid black;
-  }
+}
+
+table,
+th,
+td {
+    padding-top: 20px;
+    border: 1px solid black;
+}
+
+.count-all>td:nth-child(3),
+.count-all>td:nth-child(4) {
+    background-color: #d97be2;
+}
+ 
