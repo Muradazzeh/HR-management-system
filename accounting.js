@@ -51,8 +51,7 @@ addRow("", "", avgSum, totSum, );
 
 function addRow(p1, p2, p3, p4,){
     let tr = document.createElement("tr");
-    // if(cls)
-    //     tr.className=cls;
+   
 
     let depName = document.createElement("td");
     depName.textContent = p1
